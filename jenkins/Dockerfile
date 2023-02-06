@@ -14,6 +14,8 @@ RUN apt-get install -y nodejs
 RUN apt-get install -y zip
 # WGET
 RUN apt-get install -y wget
+# XXD
+RUN apt-get install -y xxd
 # TERRAFORM
 COPY install-terraform.sh .
 RUN ./install-terraform.sh
